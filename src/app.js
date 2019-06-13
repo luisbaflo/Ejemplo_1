@@ -3,7 +3,7 @@ const express = require('express');
 const morgan = require ('morgan');
 const app = express();
 
-//importando rutas
+//importando rutas desde el sistema completo
 const indexRoutes = require('./routes/index.js');
 
 //settings
